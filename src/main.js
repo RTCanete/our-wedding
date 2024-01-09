@@ -11,15 +11,18 @@ import { Typography } from '@mui/material';
 
 const Main = () => {
     const homeSectionStyle = {
-        backgroundImage: `url('/images/home.jpg')`, // Replace with the path to your .png image
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        backgroundImage: `url('${process.env.PUBLIC_URL}/images/bg3.png')`,
+        backgroundSize: 'contain', // Adjust this value
+        backgroundPosition: 'right',
         minHeight: '100vh',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
+        // Add other styles as needed
     };
+    
+    
 
     return (
         <Router>
@@ -30,7 +33,7 @@ const Main = () => {
                         path="/"
                         element={
                             <div style={homeSectionStyle}>
-                                <Typography fontSize='50px' fontWeight='bold'>Welcome to Our Wedding</Typography>
+                                <Typography color='#F8BCA9' fontSize='60px' fontWeight='bold'>Rico and Veronica</Typography>
                                 {/* Add more content as needed */}
                             </div>
                         }
