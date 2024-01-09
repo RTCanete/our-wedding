@@ -27,8 +27,8 @@ const Header = () => {
                     <Button style={{ fontWeight: 'bold', fontSize: '1rem' }} color="inherit" component={Link} to="/guest-list">
                         Guest List
                     </Button>
-                    <Button style={{ fontWeight: 'bold', fontSize: '1rem' }} color="inherit" component={Link} to="/about-us">
-                        About Us
+                    <Button style={{ fontWeight: 'bold', fontSize: '1rem' }} color="inherit" component={Link} to="/gallery">
+                        Gallery
                     </Button>
                 </Toolbar>
             </AppBar>

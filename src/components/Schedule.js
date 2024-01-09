@@ -25,6 +25,12 @@ const Schedule = () => {
                 <Typography variant="body1">IGLESIA NG DIOS KAY CRISTO JESUS, HALIGI AT SUHAY NG KATOTOHANAN</Typography>
                 <Typography variant="body1">BINANGONAN CHAPEL</Typography>
             </Container>
+            <br />
+            <Container>
+                <Typography fontWeight='bold' variant="h4" style={customStyle}>Reception:</Typography>
+                <Typography variant="body1">DA KUBO</Typography>
+                <Typography variant="body1">GUIJO ST. DOÑA JUSTA VILLAGE, ANGONO, RIZAL 1930</Typography>
+            </Container>
         </>
     );
 };
