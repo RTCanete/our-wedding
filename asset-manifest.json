@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/our-wedding/static/js/main.c9f2b168.js",
+    "main.js": "/our-wedding/static/js/main.dcc79f07.js",
     "index.html": "/our-wedding/index.html",
-    "main.c9f2b168.js.map": "/our-wedding/static/js/main.c9f2b168.js.map"
+    "main.dcc79f07.js.map": "/our-wedding/static/js/main.dcc79f07.js.map"
   },
   "entrypoints": [
-    "static/js/main.c9f2b168.js"
+    "static/js/main.dcc79f07.js"
   ]
 }
